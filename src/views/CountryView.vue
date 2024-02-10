@@ -40,8 +40,8 @@ function fetchData(countryName) {
     .catch((err) => console.log(err.toJSON()))
     .finally(() => {
       isLoading.value = false;
-      console.log('finally');
-      console.log(country.value);
+      // console.log('finally');
+      // console.log(country.value);
       // console.log(countryBorder);
       // console.log(isLoading.value);
     });

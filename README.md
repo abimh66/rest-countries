@@ -1,6 +1,6 @@
-# Sunnyside Agency Landing Page
+# REST Countries API with Color Theme Switcher
 
-Project ini berdasarkan pada challenge di Frontend Mentor [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef).
+Project ini berdasarkan pada challenge di Frontend Mentor [REST Countries API with Color Theme Switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca/hub).
 
 ## Daftar Isi
 
@@ -10,7 +10,6 @@ Project ini berdasarkan pada challenge di Frontend Mentor [Sunnyside agency land
   - [Links](#links)
 - [Proses](#proses)
   - [Stack yang digunakan](#stack-yang-digunakan)
-  - [Hal yang dipelajari](#hal-yang-dipelajari)
   - [Resources](#resources)
 - [Author](#author)
 
@@ -18,57 +17,42 @@ Project ini berdasarkan pada challenge di Frontend Mentor [Sunnyside agency land
 
 ### Penjelasan Project
 
-Pada project ini saya membangun sebuah landing page yang semirip mungkin dengan desain yang diberikan oleh Frontend Mentor.
-Fokus utama pada project ini adalah HTML dan CSS, dengan tambahan javascript.
-Objektif pada project ini:
-
-- Menampilkan layout yang sesuai dengan ukuran layar(responsive)
-- Memberikan interaksi pada web(_hover_, _scrollIntoView_)
+Pada project ini saya membangun Countries App yang menampilkan data dan informasi 250 negara. Data diambil dari [REST Countries API](https://restcountries.com/).
+Fokus utama pada project ini adalah membuat tampilan semirip mungkin dengan desain yang diberikan oleh Frontend Mentor.
 
 ### Screenshot
 
 **Tampilan Desktop**
 ![Tampilan Desktop](./screenshot/screenshot-desktop.png)
+![Tampilan Desktop](./screenshot/screenshot-desktop-dark.png)
 
 **Tampilan Mobile**<br>
-![Tampilan Mobile](./screenshot/screenshot-mobile.png)
+![Tampilan Mobile](./screenshot/screenshot-mobile-dark.png)
 
 ### Links
 
-- Solution URL: [Solution Code](https://github.com/abimh66/sunnyside-agency-landing-page-main)
-- Live Site URL: [live site](https://sunnyside-abimh66.netlify.app/)
+- Solution URL: [Solution Code](https://github.com/abimh66/rest-countries)
+- Live Site URL: [Live Site](https://rest-countries-abimh66.netlify.app/)
 
 ## Proses
 
 ### Stack yang digunakan
 
-- Semantic HTML5 markup
-- [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
+- Vue
+- Vue Router
+- [VueUse](https://vueuse.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- Vanilla JavaScript
-
-### Hal yang dipelajari
-
-Banyak hal yang dipelajari dari project ini terutama adalah framework Tailwind CSS. Membuat responsive web menjadi sangat mudah dengan menggunakan Tailwind CSS. Selain itu saya juga belajar _scrollIntoView method_ pada javascript. Penggunaan _scrollIntoView method_ pada project saya:
-
-```JavaScript
-const arrow = document.querySelector(".arrow");
-
-arrow.addEventListener("click", () => {
-  main.scrollIntoView({ behavior: "smooth" });
-});
-```
 
 ### Resources
 
+- [Vue Documentation](https://vuejs.org/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation)
 - [Mozilla MDN JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Author
 
-- Website - [abiproject.com](https://www.abiproject.com)
 - Frontend Mentor - [@abimh66](https://www.frontendmentor.io/profile/abimh66)
 - Codewars - [@abimh66](https://www.codewars.com/users/abimh66)
 - Twitter - [@abimhrdnt](https://www.twitter.com/abimhrdnt)

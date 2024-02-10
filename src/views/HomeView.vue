@@ -14,7 +14,7 @@ function fetchData(keyword) {
     .get(`https://restcountries.com/v3.1/${keyword}`)
     .then((res) => {
       dataCountries.value = res.data;
-      console.log(res);
+      // console.log(res);
     })
     .catch(() => (dataCountries.value = []))
     .finally(() => (isLoading.value = false));
